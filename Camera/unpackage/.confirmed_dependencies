@@ -1,0 +1,13 @@
+{
+	"index.html": {
+		"resources": [
+			"css/feedback.css",
+			"js/mui.min.js",
+			"js/fetchimages.js",
+			"css/mui.min.css",
+			"js/feedback-page.js",
+			"js/jquery.js",
+			"js/mui.js"
+		]
+	}
+}
