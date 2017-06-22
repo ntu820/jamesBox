@@ -1,0 +1,8 @@
+select t.id,t.rolename from organize t where t.level>=(select s.level from organize s where s.id=4);
+
+
+select min(t.id) from organize t where t.level>=(select s.level from organize s where s.id=4);
+
+
+
+select workNo,realname from employee where departId>=(select min(t.id) from organize t where t.level>=(select s.level from organize s where s.id=4)) and departId<=(select max(t.id) from organize t where t.level>=(select s.level from organize s where s.id=4));
